@@ -1,13 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+*{
+    max-width: 1015px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    z-index: 1;
+}
+
 .imgL{
     width: 268px;
     height: 33px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-}
+
 .navUL{
     list-style: none;
     display: flex;
+}
+
+.navLI{
+    margin-right: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    font: size 15px;
+    line-height: 30px;
+    height: 30px;
+    font-weight: 400;
+    color: #ABABAB;
+    }
+
+#aboutus{
+    color: #00B39B;
+}
+
+.navUL :hover{
+    color: #00B39B;
+cursor: pointer;
+}
+
+.depart-list{
+    list-style: none;
+    box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.75);
+display: none;
+position: absolute;
+margin-left: -150px;
+background-color: white;
+}
+
+.depart-list-item{
+    font-family: Roboto, Arial, sans-serif;
+      font: size 15px;
+      color: #ABABAB;
+      padding: 12px 13px;
+      }
+
+.depart-list-item:hover{
+color: #00B39B;
+background-color:#99FFFF;
+}
+
+
+#Departments:hover .depart-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#departments{
+    position: relative;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.titleimg{
+    height:39px;
+    width:40px;
+}
+
+.titleh{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size:34px;
+    font-weight:400;
+    color:#00B39B;
+}
+.pr{
+    display: flex;
+}
+.par{
+    font-family:Roboto,Arial,sans-serif;
+    font-size:16px;
+    color:#747474;
+    line-height: 28px;
+    margin: 10px;
+}
+.box{
+    height: 800px;
+    width:200px;
+    background-color:#00B39B;
 }
