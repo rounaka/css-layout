@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+.imgL{
+    width: 268px;
+    height: 33px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navUL{
+    list-style: none;
+    display: flex;
+}
