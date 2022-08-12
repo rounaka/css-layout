@@ -149,6 +149,7 @@ background-color:rgb(248, 242, 242);
 .boxes{
     display: flex;
 }
+
 .H1box{
     font-family: "Work Sans", Arial, sans-serif;
     font-size: 26px;
@@ -158,6 +159,7 @@ background-color:rgb(248, 242, 242);
     width: 247.625px;
     color:white
 }
+
 .Pbox{
     font-family: "Work Sans", Arial, sans-serif;
     font-size: 24px;
@@ -168,20 +170,61 @@ background-color:rgb(248, 242, 242);
     width: 247.625px;
     color: white;
 }
+
 select{
     background-color: transparent;
     border: none;
     font-size: large;
     color: white;
+    text-decoration: underline;
+    border:none;
 }
+
 .gg{
     height: 24px;
     width: 24px;
 }
+
 option{
     color: black;
     background-color: white;
 }
+
 .ez{
     margin-top: 20px;
 }
+
+.stickers{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.stickers-logo{
+   width:653.25px ; 
+   margin-bottom: 100px;
+   margin-top: 30px;
+}
+
+.stickers-txt{
+    width: 320px;
+    padding-right: 100px;
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #00B39B;
+    
+}
+.jh{
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+.ll{
+    height: 34px ;    
+}
+/* .backgroundlogo{
+    height: 600px;
+    width: 1500;
+    background-image: url(https://cdn.discordapp.com/attachments/964128210705068102/984402848517333022/Sans_titre-2.png);
+} */
+sfEFF
